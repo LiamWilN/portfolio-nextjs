@@ -1,0 +1,55 @@
+{
+  "NavigationLinks": [
+    { "id": 0, "title": "projects", "links": "/projects" },
+    { "id": 1, "title": "work", "links": "/work" },
+    { "id": 2, "title": "me", "links": "/about" }
+  ],
+
+  "Projects": {
+    "PageTitle": "Projects | WilliamC",
+    "PageDescription": "This is the Project i've worked with for the Past Year as an IT",
+    "PageKeywords": "projects, web development, power application",
+    "WorkProjects": [
+      {
+        "id": 0,
+        "title": "HR Recruitment Website",
+        "links": "/projects/hr-recruitment-website"
+      },
+      { "id": 1, "title": "Approval Hub", "links": "/projects/approval-hub" },
+      {
+        "id": 2,
+        "title": "Request For Payment",
+        "links": "/projects/request-for-payment"
+      },
+      {
+        "id": 3,
+        "title": "Leave Application",
+        "links": "/projects/leave-application"
+      },
+      {
+        "id": 4,
+        "title": "Ticket System",
+        "links": "/projects/ticketing-system"
+      },
+      { "id": 5, "title": "Docket System", "links": "/projects/docket-system" }
+    ]
+  },
+
+  "Work": {
+    "PageTitle": "Work Experience | WilliamC",
+    "PageDescription": "This is my work experience as an IT",
+    "PageKeywords": "bsit, information technology, work",
+    "WorkExperience": [
+      {
+        "id": 0,
+        "title": "IT Staff II",
+        "links": "/work/it-staff"
+      },
+      {
+        "id": 1,
+        "title": "IT Technical Support Engineer Trainee",
+        "links": "/work/trainee"
+      }
+    ]
+  }
+}
