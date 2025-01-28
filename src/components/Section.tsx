@@ -4,7 +4,7 @@ type SectionProps = {
 
 const Section = ({ children }: SectionProps) => {
   return (
-    <section className="max-w-screen-md mx-auto h-full w-full">
+    <section className="max-w-screen-sm mx-auto h-full w-full">
       {children}
     </section>
   );

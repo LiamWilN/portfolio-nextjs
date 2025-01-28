@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Nav from "@/assets/contents.json";
 
 type NavigationItemProps = {
@@ -8,16 +11,28 @@ type NavigationItemProps = {
 };
 
 const Navigation = () => {
+  const pathname = usePathname();
+
   return (
     <nav aria-label="Main Navigation">
-      <ul className="flex items-center justify-center gap-2">
-        {Nav.NavigationLinks.map((item: NavigationItemProps) => (
-          <li key={item.id}>
-            <Link href={item.links} passHref>
-              {item.title}
-            </Link>
-          </li>
-        ))}
+      <ul className="flex items-center justify-center gap-4">
+        {Nav.NavigationLinks.map((item: NavigationItemProps) => {
+          const isActiveLink = pathname.startsWith(item.links);
+
+          return (
+            <li key={item.id}>
+              <Link
+                className={`${
+                  isActiveLink ? "underline underline-offset-8" : ""
+                }`}
+                href={item.links}
+                passHref
+              >
+                {item.title}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );

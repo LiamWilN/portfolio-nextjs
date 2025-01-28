@@ -1,6 +1,7 @@
 import Navigation from "./Navigation";
 import Section from "./Section";
 import Link from "next/link";
+import ThemeToggle from "./Theme";
 
 const Header = () => {
   return (
@@ -10,8 +11,9 @@ const Header = () => {
           <Link href="/">
             <h1>williamC</h1>
           </Link>
-          <div>
+          <div className="flex items-center justify-center gap-4">
             <Navigation />
+            <ThemeToggle />
           </div>
         </div>
       </Section>
