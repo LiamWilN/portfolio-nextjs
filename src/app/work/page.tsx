@@ -16,8 +16,7 @@ export const metadata: Metadata = {
 
 const WorksPage = () => {
   return (
-    <div>
-      WorkPage
+    <>
       <ul>
         {data.Work.WorkExperience.map((item: WorkProps) => (
           <li key={item.id}>
@@ -27,7 +26,7 @@ const WorksPage = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 

@@ -17,7 +17,6 @@ export const metadata: Metadata = {
 const ProjectsPage = () => {
   return (
     <>
-      ProjectPage
       <ul>
         {data.Projects.WorkProjects.map((item: ProjectProps) => (
           <li key={item.id}>

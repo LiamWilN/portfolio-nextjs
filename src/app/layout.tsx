@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Container from "@/components/Container";
+import Section from "@/components/Section";
 import { Roboto } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
@@ -26,14 +26,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${roboto.className} text-neutral-100 bg-neutral-900 dark:bg-neutral-50 dark:text-neutral-900`}
-      >
-        <Header />
-        <Container>{children}</Container>
-        <Footer />
-      </body>
-    </html>
+    <>
+      <html lang="en">
+        <body
+          className={`${roboto.className} text-neutral-100 bg-neutral-900 dark:bg-neutral-50 dark:text-neutral-900 mx-8 sm:mx-0`}
+        >
+          <Header />
+          <Section>{children}</Section>
+          <Footer />
+        </body>
+      </html>
+    </>
   );
 }

@@ -1,0 +1,14 @@
+{
+  "name": "William Calda",
+  "aspiretobe": "Software / Web Developer",
+  "hero": [
+    {
+      "id": 0,
+      "content": "I am your All-Around-IT Guy with a bit of experience in everything IT-related. I am a problem solver, minimalist and a software developer with a passion for creating intuitive and user-friendly digital experiences."
+    },
+    {
+      "id": 1,
+      "content": "I have a diverse knowledge on software development, troubleshooting, and network systems, which allows me to adapt quickly to different challenges and environments. Whether it's designing a sleek interface or finding efficient solutions to technical issues, I thrive on making things work better and more efficiently."
+    }
+  ]
+}
