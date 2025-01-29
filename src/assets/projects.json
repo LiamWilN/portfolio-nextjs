@@ -4,7 +4,7 @@
       "title": "hr-recruitment-website",
       "name": "HR Recruitment Website",
       "company": "RMI",
-      "description": "A web application designed to streamline the recruitment process, enabling HR teams to manage job postings, applications, and candidate profiles efficiently.",
+      "description": "A web application designed to streamline the recruitment process, enabling HR teams to manage job postings, applications, interviews, and candidate profiles efficiently.",
       "techs": [
         { "name": "React JS" },
         { "name": "Tailwind CSS" },
@@ -13,16 +13,13 @@
       ],
       "contributions": [
         {
-          "content": "Developed the front-end interface for job seekers and HR staff using ReactJS."
+          "content": "Developed the front-end interface for HR staff using ReactJS."
         },
         {
-          "content": "Implemented a secure login system with role-based access for administrators and applicants."
+          "content": "Implemented a secure login system with role-based access for administrators and hr staff."
         },
         {
-          "content": "Integrated MongoDB for managing job postings and candidate data."
-        },
-        {
-          "content": "Designed a responsive user interface to improve usability across devices."
+          "content": "Designed as a responsive interface to improve usability across devices."
         }
       ]
     },
@@ -34,13 +31,13 @@
       "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Collaborated with the team to design and implement an approval pipeline for multiple departments."
+          "content": "Designed and implemented an approval pipeline for multiple departments and multiple applications."
         },
         {
-          "content": "Developed APIs for managing approval requests and routing decisions using Node.js."
+          "content": "Designed to cater and easily add and remove applications, adjust request variables, as admin."
         },
         {
-          "content": "Set up a PostgreSQL database for secure and efficient data storage."
+          "content": "Easily access multiple companies requests from multiple applications."
         },
         {
           "content": "Conducted thorough testing to ensure smooth workflow automation."
@@ -55,10 +52,10 @@
       "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Built the back-end logic for tracking payment request statuses using Laravel."
+          "content": "Built the back-end and front-end logic for tracking payment request statuses."
         },
         {
-          "content": "Designed and implemented a user-friendly interface with Vue.js for submitting and monitoring requests."
+          "content": "Designed and implemented a user-friendly interface with designed for submitting and monitoring requests."
         },
         {
           "content": "Developed a notification system to alert approvers of pending requests."
@@ -76,16 +73,10 @@
       "techs": [{ "name": "Power Apps" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Developed the backend logic for generating and managing delivery dockets."
+          "content": "Developed an application that will cater to mobile and desktop, as well as implementing scanner to the application."
         },
         {
-          "content": "Designed an intuitive user interface for drivers and logistics personnel."
-        },
-        {
-          "content": "Integrated real-time updates to track delivery statuses."
-        },
-        {
-          "content": "Optimized database queries to enhance performance with large shipment records."
+          "content": "Designed an intuitive user interface for drivers and office staff"
         }
       ]
     },
@@ -97,13 +88,13 @@
       "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Developed RESTful APIs for leave requests and approvals using Django."
+          "content": "Developed a mobile application for leave requests and approvals"
         },
         {
-          "content": "Created a ReactJS-based dashboard for employees and managers to manage leave applications."
+          "content": "Designed to be easy accessible and intuitivity-first"
         },
         {
-          "content": "Integrated email notifications for leave status updates."
+          "content": "Integrated email and in-app notifications for leave status updates."
         },
         {
           "content": "Implemented a calendar view for better visualization of leave schedules."
@@ -118,13 +109,13 @@
       "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Designed and developed ticket submission and tracking modules using ASP.NET Core."
+          "content": "Designed and developed ticket submission and tracking of it issues"
         },
         {
           "content": "Built a reporting feature to analyze ticket resolution times and trends."
         },
         {
-          "content": "Implemented a priority-based system for categorizing and resolving tickets efficiently."
+          "content": "Implemented a scoring system for engagement purpose and transparency."
         },
         {
           "content": "Integrated authentication for users and support staff with role-based access."
@@ -135,20 +126,17 @@
       "title": "docket-system",
       "name": "Docket System",
       "company": "RMI",
-      "description": "A web-based application for managing and tracking delivery dockets, ensuring accuracy and transparency in shipment tracking.",
+      "description": "A web-based application for managing and tracking email and letters, ensuring accuracy and transparency in tracking.",
       "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
       "contributions": [
         {
-          "content": "Developed the back-end logic for generating and managing delivery dockets."
+          "content": "Developed the logic for generating and managing emails and letters."
         },
         {
-          "content": "Designed an intuitive interface for drivers and logistics personnel."
+          "content": "Designed an intuitive interface for administration users, staff and managers."
         },
         {
-          "content": "Integrated real-time updates for tracking delivery statuses."
-        },
-        {
-          "content": "Optimized database queries for high performance with large shipment records."
+          "content": "Designed for easy accessibility and interchangeability of the routes."
         }
       ]
     }

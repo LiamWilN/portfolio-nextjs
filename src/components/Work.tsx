@@ -21,11 +21,7 @@ export default function WorkExperience({ isfromHome = false }) {
       }  dark:border-neutral-500 border-neutral-400`}
     >
       <h1 className="my-4 text-2xl font-bold">Work Experience</h1>
-      <ul
-        className={`${
-          isfromHome ? "border-l-[1px] pl-2" : ""
-        } dark:border-neutral-500 border-neutral-400 list-inside `}
-      >
+      <ul className={`list-inside`}>
         {data.Work.WorkExperience.map((item) => (
           <li
             data-aos="fade-right"

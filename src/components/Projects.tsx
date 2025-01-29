@@ -31,6 +31,7 @@ export default function ProjectsDeveloped({ isfromHome = false }) {
       once: true,
     });
   }, []);
+
   const dataset = isfromHome
     ? data.Projects.WorkProjects.slice(0, 3)
     : data.Projects.WorkProjects;
