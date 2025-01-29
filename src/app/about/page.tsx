@@ -25,6 +25,7 @@ const AboutPage = () => {
             width={80}
             height={80}
             alt={`Picture of ${me.name}`}
+            priority
           />
         </div>
         <div className="mt-8 space-y-4 text-left">

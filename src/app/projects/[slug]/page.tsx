@@ -18,6 +18,11 @@ export default async function Project({ params }: any) {
         <h1 className="text-2xl font-semibold pt-2">{dataset?.name}</h1>
         <p className="text-sm">{dataset?.company}</p>
         <p className="p-2">{dataset?.description}</p>
+        <ul className="list-outside list-disc pl-4 p-2">
+          {dataset?.contributions.map((item, index) => (
+            <li key={index}>{item.content}</li>
+          ))}
+        </ul>
       </section>
     </section>
   );

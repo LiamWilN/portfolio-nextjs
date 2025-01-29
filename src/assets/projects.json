@@ -69,6 +69,27 @@
       ]
     },
     {
+      "title": "business-trip",
+      "name": "Official Business Trip / OB and Trip Ticket QR Scanner",
+      "company": "RYS and Affiliated Companies",
+      "description": "An organization-wide application for managing and tracking official business trips of all employees.",
+      "techs": [{ "name": "Power Apps" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Developed the backend logic for generating and managing delivery dockets."
+        },
+        {
+          "content": "Designed an intuitive user interface for drivers and logistics personnel."
+        },
+        {
+          "content": "Integrated real-time updates to track delivery statuses."
+        },
+        {
+          "content": "Optimized database queries to enhance performance with large shipment records."
+        }
+      ]
+    },
+    {
       "title": "leave-application",
       "name": "RYS Leave Application",
       "company": "RYS and Affiliated Companies",

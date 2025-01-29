@@ -42,6 +42,12 @@
       },
       {
         "id": 5,
+        "title": "Official Business Trip & QR Scanner",
+        "description": "An organization-wide application for managing and tracking official business trips of employess.",
+        "links": "/projects/business-trip"
+      },
+      {
+        "id": 6,
         "title": "Docket System",
         "description": "Application for Admin Department, designed to streamline any letters and keep track of all the documents.",
         "links": "/projects/docket-system"

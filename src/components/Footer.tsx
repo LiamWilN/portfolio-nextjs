@@ -49,7 +49,7 @@ const Footer = () => {
         </a>
       </Section>
       <Section>
-        <p className="text-sm">
+        <p className="text-sm mb-2">
           &copy; {currentYear} | {me.name}
         </p>
       </Section>

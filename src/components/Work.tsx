@@ -33,9 +33,7 @@ export default function WorkExperience({ isfromHome = false }) {
                     .find((work) => work.position === item.title)
                     ?.responsibilities.slice(0, 2)
                     .map((listitem) => (
-                      <li className="text-sm" key={listitem.id}>
-                        {listitem.content}
-                      </li>
+                      <li key={listitem.id}>{listitem.content}</li>
                     ))}
                 </ul>
               )}

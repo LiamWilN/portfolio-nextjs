@@ -22,7 +22,7 @@ export default async function Work({ params }: any) {
         <p className="text-sm">{dataset?.date}</p>
         <ul className="py-4 pl-4 list-disc list-outside">
           {dataset?.responsibilities.map((item) => (
-            <li className="text-sm py-2" key={item.id}>
+            <li className="py-2" key={item.id}>
               {item.content}
             </li>
           ))}

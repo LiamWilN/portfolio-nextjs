@@ -8,7 +8,9 @@ export default function Hero() {
       <div className="my-4 pb-4 text-sm">
         <p>Hi, I'm</p>
         <Link href="/about">
-          <h1 className="text-3xl font-bold">{me.name}</h1>
+          <h1 data-aos="fade-right" className="text-3xl font-bold">
+            {me.name}
+          </h1>
         </Link>
         <p>and I enjoy</p>
         <h2 className="text-4xl font-bold mt-6">
