@@ -1,3 +1,4 @@
-export default function Work({ params }: any) {
-  return <section>{params.slug}</section>;
+export default async function Work({ params }: any) {
+  const { slug } = await params;
+  return <section>{slug}</section>;
 }

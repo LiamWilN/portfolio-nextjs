@@ -1,5 +1,6 @@
 import Link from "next/link";
 import data from "@/assets/contents.json";
+import WorkExperience from "@/components/Work";
 import { Metadata } from "next";
 
 type WorkProps = {
@@ -17,15 +18,7 @@ export const metadata: Metadata = {
 const WorksPage = () => {
   return (
     <>
-      <ul>
-        {data.Work.WorkExperience.map((item: WorkProps) => (
-          <li key={item.id}>
-            <Link href={item.links} passHref>
-              {item.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <WorkExperience />
     </>
   );
 };

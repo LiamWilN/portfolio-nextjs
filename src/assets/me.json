@@ -1,5 +1,6 @@
 {
   "name": "William Calda",
+  "email": "williamncalda@gmail.com",
   "aspiretobe": "Software / Web Developer",
   "hero": [
     {
@@ -9,6 +10,23 @@
     {
       "id": 1,
       "content": "I have a diverse knowledge on software development, troubleshooting, and network systems, which allows me to adapt quickly to different challenges and environments. Whether it's designing a sleek interface or finding efficient solutions to technical issues, I thrive on making things work better and more efficiently."
+    }
+  ],
+  "socialmedia": [
+    {
+      "id": 0,
+      "link": "https://www.linkedin.com/in/caldawilliam",
+      "title": "Linked In"
+    },
+    {
+      "id": 1,
+      "link": "https://m.me/CaldaWilliam",
+      "title": "Messenger"
+    },
+    {
+      "id": 2,
+      "link": "https://github.com/LiamWilN",
+      "title": "Github"
     }
   ]
 }

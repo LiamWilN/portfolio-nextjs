@@ -1,5 +1,6 @@
 import Link from "next/link";
 import data from "@/assets/contents.json";
+import ProjectsDeveloped from "@/components/Projects";
 import { Metadata } from "next";
 
 type ProjectProps = {
@@ -17,15 +18,7 @@ export const metadata: Metadata = {
 const ProjectsPage = () => {
   return (
     <>
-      <ul>
-        {data.Projects.WorkProjects.map((item: ProjectProps) => (
-          <li key={item.id}>
-            <Link href={item.links} passHref>
-              {item.title}
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <ProjectsDeveloped />
     </>
   );
 };

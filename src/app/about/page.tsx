@@ -1,7 +1,6 @@
 import Section from "@/components/Section";
 import Image from "next/image";
 import { Metadata } from "next";
-import React from "react";
 import pic from "@/assets/images/profile.png";
 import me from "@/assets/me.json";
 
@@ -15,18 +14,23 @@ const AboutPage = () => {
   return (
     <>
       <Section>
-        <div className="my-4 flex items-center justify-between">
+        <div className="my-4 flex items-center justify-between mx-0 md:mx-8">
           <div>
-            <p>Hi, I'm</p>
-            <h1 className="font-bold text-2xl">{me.name}</h1>
+            <h1 className="font-bold text-3xl">{me.name}</h1>
+            <h3 className="text-sm">{me.aspiretobe}</h3>
           </div>
           <Image
             className="rounded-full"
             src={pic}
             width={80}
             height={80}
-            alt="William Calda"
+            alt={`Picture of ${me.name}`}
           />
+        </div>
+        <div className="mt-8 space-y-4 text-left md:text-right">
+          {me.hero.map((item) => (
+            <p key={item.id}>{item.content}</p>
+          ))}
         </div>
       </Section>
     </>
