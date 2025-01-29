@@ -22,8 +22,8 @@ export default function TechStack() {
     <div className="my-4 flex items-center gap-2">
       {techstack.map((item) => (
         <Image
-          width={20}
-          height={20}
+          width={25}
+          height={25}
           key={item.id}
           alt={item.title}
           title={item.title}

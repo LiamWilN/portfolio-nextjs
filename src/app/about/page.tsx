@@ -2,6 +2,7 @@ import Section from "@/components/Section";
 import Image from "next/image";
 import { Metadata } from "next";
 import pic from "@/assets/images/profile.png";
+import Skills from "@/components/Skills";
 import me from "@/assets/me.json";
 
 export const metadata: Metadata = {
@@ -34,6 +35,7 @@ const AboutPage = () => {
           ))}
         </div>
       </Section>
+      <Skills />
     </>
   );
 };
