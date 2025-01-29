@@ -1,8 +1,19 @@
+"use client";
+
 import data from "@/assets/contents.json";
 import additional from "@/assets/work.json";
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function WorkExperience({ isfromHome = false }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <div
       className={`${
@@ -15,8 +26,9 @@ export default function WorkExperience({ isfromHome = false }) {
           isfromHome ? "border-l-[1px] pl-2" : ""
         } dark:border-neutral-500 border-neutral-400 list-inside `}
       >
-        {data.Work.WorkExperience.map((item) => (
+        {data.Work.WorkExperience.map((item, index) => (
           <li
+            data-aos="fade-right"
             className="hover:bg-neutral-800 hover:dark:bg-neutral-200 p-2 rounded-tr-lg rounded-bl-lg"
             key={item.id}
           >

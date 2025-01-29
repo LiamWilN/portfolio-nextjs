@@ -1,3 +1,5 @@
+"use client";
+
 import data from "@/assets/contents.json";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
@@ -8,6 +10,9 @@ import Leave from "@/assets/images/application/leave-application.png";
 import Ticket from "@/assets/images/application/ticket-system.png";
 import OB from "@/assets/images/application/ob-trip.png";
 import Docket from "@/assets/images/application/docket.png";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 type ImagesProps = {
   "HR Recruitment Website": StaticImageData;
@@ -20,6 +25,12 @@ type ImagesProps = {
 };
 
 export default function ProjectsDeveloped({ isfromHome = false }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   const dataset = isfromHome
     ? data.Projects.WorkProjects.slice(0, 3)
     : data.Projects.WorkProjects;
@@ -51,6 +62,7 @@ export default function ProjectsDeveloped({ isfromHome = false }) {
       <ul className={`${isfromHome ? "" : "space-y-4"} `}>
         {dataset.map((item) => (
           <li
+            data-aos="fade-right"
             className="p-2 space-y-2 hover:bg-neutral-800 hover:dark:bg-neutral-200 rounded-tl-lg rounded-br-lg"
             key={item.id}
           >
