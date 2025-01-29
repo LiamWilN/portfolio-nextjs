@@ -2,12 +2,12 @@ import { ChevronLeft } from "lucide-react";
 import data from "@/assets/work.json";
 import Link from "next/link";
 
-export default async function Work({ params }: any) {
-  const { slug } = await params;
+export default function Work({ params }: { params: { slug: string } }) {
+  const { slug } = params;
   const dataset = data.work.find((item) => item.title === slug);
   return (
     <section>
-      <Link className="flex items-center gap-2" href="/work">
+      <Link className="flex items-center gap-2" href="/work" passHref>
         <ChevronLeft />
         <span className="hover:underline hover:underline-offset-8 font-semibold">
           Back

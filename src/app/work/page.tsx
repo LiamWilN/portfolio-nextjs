@@ -1,13 +1,6 @@
-import Link from "next/link";
 import data from "@/assets/contents.json";
 import WorkExperience from "@/components/Work";
 import { Metadata } from "next";
-
-type WorkProps = {
-  id: number;
-  title: string;
-  links: string;
-};
 
 export const metadata: Metadata = {
   title: data.Work.PageTitle,

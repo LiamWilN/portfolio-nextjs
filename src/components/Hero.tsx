@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <Section>
       <div className="my-4 pb-4 text-sm">
-        <p>Hi, I'm</p>
+        <p>Hi, I&apos;m</p>
         <Link href="/about">
           <h1 data-aos="fade-right" className="text-3xl font-bold">
             {me.name}
