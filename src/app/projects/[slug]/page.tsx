@@ -2,8 +2,11 @@ import data from "@/assets/projects.json";
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 
-export default function Project({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+type Params = Promise<{ slug: string }>;
+
+export default async function Project({ params }: { params: Params }) {
+  const { slug } = await params;
+
   const dataset = data.project.find((item) => item.title === slug);
 
   if (!dataset) {
@@ -12,7 +15,7 @@ export default function Project({ params }: { params: { slug: string } }) {
 
   return (
     <section>
-      <Link className="flex items-center gap-2" href="/projects" passHref>
+      <Link className="flex items-center gap-2" href="/projects">
         <ChevronLeft />
         <span className="hover:underline hover:underline-offset-8 font-semibold">
           Back

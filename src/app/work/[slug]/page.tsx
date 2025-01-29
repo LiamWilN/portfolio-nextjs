@@ -2,8 +2,10 @@ import { ChevronLeft } from "lucide-react";
 import data from "@/assets/work.json";
 import Link from "next/link";
 
-export default function Work({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+type Params = Promise<{ slug: string }>;
+
+export default async function Work({ params }: { params: Params }) {
+  const { slug } = await params;
   const dataset = data.work.find((item) => item.title === slug);
   return (
     <section>
