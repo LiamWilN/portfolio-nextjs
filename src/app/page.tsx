@@ -9,8 +9,8 @@ const HomePage = () => {
     <>
       <Hero />
       <TechStack />
-      <WorkExperience />
-      <ProjectsDeveloped />
+      <WorkExperience isfromHome={true} />
+      <ProjectsDeveloped isfromHome={true} />
     </>
   );
 };

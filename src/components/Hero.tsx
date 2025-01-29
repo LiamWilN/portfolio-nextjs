@@ -10,7 +10,7 @@ export default function Hero() {
         <Link href="/about">
           <h1 className="text-3xl font-bold">{me.name}</h1>
         </Link>
-        <p>and I enjoy </p>
+        <p>and I enjoy</p>
         <h2 className="text-4xl font-bold mt-6">
           Building Sleek, Responsive and Intuitive Web Applications
         </h2>
