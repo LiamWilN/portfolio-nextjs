@@ -1,4 +1,5 @@
 import data from "@/assets/contents.json";
+import additional from "@/assets/work.json";
 import Link from "next/link";
 
 export default function WorkExperience({ isfromHome = false }) {
@@ -26,6 +27,18 @@ export default function WorkExperience({ isfromHome = false }) {
                   {item.content}
                 </h3>
               ))}
+              {isfromHome || (
+                <ul className="py-2 p-4 list-disc list-outside">
+                  {additional.work
+                    .find((work) => work.position === item.title)
+                    ?.responsibilities.slice(0, 2)
+                    .map((listitem) => (
+                      <li className="text-sm" key={listitem.id}>
+                        {listitem.content}
+                      </li>
+                    ))}
+                </ul>
+              )}
             </Link>
           </li>
         ))}

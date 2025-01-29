@@ -19,7 +19,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="max-h-96 min-h-72 mt-8 mb-2 flex flex-col justify-between">
+    <footer className="max-h-96 min-h-72 mt-12 mb-2 flex flex-col justify-between">
       <Section>
         <h1 className="font-bold text-2xl">Let's Connect</h1>
         <h3 className="text-sm">Get in touch / reach out to me via:</h3>

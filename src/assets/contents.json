@@ -13,25 +13,39 @@
       {
         "id": 0,
         "title": "HR Recruitment Website",
+        "description": "Website for HR Department, to be used as an Admin Page to which hr users can create a job posting, monitor job posting and applicants.",
         "links": "/projects/hr-recruitment-website"
       },
-      { "id": 1, "title": "Approval Hub", "links": "/projects/approval-hub" },
+      {
+        "id": 1,
+        "title": "Approval Hub",
+        "description": "An organization-wide centralized Approval Hub for all the deployed application, designed to cater all approvers and their access to the applications.",
+        "links": "/projects/approval-hub"
+      },
       {
         "id": 2,
         "title": "Request For Payment",
+        "description": "An organization-wide application for Requesting a Payment, designed to keep track and monitor all payment requests.",
         "links": "/projects/request-for-payment"
       },
       {
         "id": 3,
         "title": "Leave Application",
+        "description": "An organization-wide application for requesting, monitoring and keeping track of all Official Leave Requests.",
         "links": "/projects/leave-application"
       },
       {
         "id": 4,
         "title": "Ticket System",
+        "description": "An organization-wide application to request an assistance from IT Staff and record all IT issues; used for analyzing and improving infrastracture systems.",
         "links": "/projects/ticketing-system"
       },
-      { "id": 5, "title": "Docket System", "links": "/projects/docket-system" }
+      {
+        "id": 5,
+        "title": "Docket System",
+        "description": "Application for Admin Department, designed to streamline any letters and keep track of all the documents.",
+        "links": "/projects/docket-system"
+      }
     ]
   },
 

@@ -1,0 +1,76 @@
+{
+  "work": [
+    {
+      "id": 0,
+      "title": "it-staff",
+      "position": "IT Staff II",
+      "company": "RYS Property Holdings, Inc.",
+      "location": "Cubao, Quezon City",
+      "date": "December 2022 - January 2025",
+      "responsibilities": [
+        {
+          "id": 0,
+          "content": "Designed and developed multiple in-house and corporate web applications to streamline business processes and improve efficiency."
+        },
+        {
+          "id": 1,
+          "content": "Managed and maintained IT hardware, software, and network equipment for the organization."
+        },
+        {
+          "id": 2,
+          "content": "Configured and deployed Fortinet Firewalls and Synology Drive for secure and efficient network storage solutions."
+        },
+        {
+          "id": 3,
+          "content": "Automated critical tasks using Power Automate, such as integrating daily attendance records (from ZKTeco Biometrics) directly into the payroll system database."
+        },
+        {
+          "id": 4,
+          "content": "Created monthly assessment reports detailing hardware, software, and network performance improvements."
+        },
+        {
+          "id": 5,
+          "content": "Advanced knowledge of Fortinet Firewall and Synology Network Storage."
+        },
+        {
+          "id": 6,
+          "content": "Extensive experience in managing Office 365 environments, including Domain integration and configuration, Security Groups and Distribution List management, Email flow and rule setup using Microsoft Exchange."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "trainee",
+      "position": "IT Technical Support Engineer Trainee",
+      "company": "Tech Mahindra",
+      "location": "Libis, Quezon City",
+      "date": "April 2022 - January 2022",
+      "responsibilities": [
+        {
+          "id": 0,
+          "content": "Assisted in troubleshooting and resolving hardware, software, and network-related issues for internal users."
+        },
+        {
+          "id": 1,
+          "content": "Provided technical support for the installation, configuration, and maintenance of IT equipment and applications."
+        },
+        {
+          "id": 2,
+          "content": "Monitored and maintained network infrastructure to ensure minimal downtime and optimal performance."
+        },
+        {
+          "id": 3,
+          "content": "Performed routine diagnostics and maintenance tasks on computer systems and peripherals."
+        },
+        {
+          "id": 4,
+          "content": "Documented technical issues and resolutions, contributing to a knowledge base for future troubleshooting."
+        },
+        {
+          "id": 5,
+          "content": "Collaborated with senior engineers to learn and implement advanced IT solutions."
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ const AboutPage = () => {
             alt={`Picture of ${me.name}`}
           />
         </div>
-        <div className="mt-8 space-y-4 text-left md:text-right">
+        <div className="mt-8 space-y-4 text-left">
           {me.hero.map((item) => (
             <p key={item.id}>{item.content}</p>
           ))}

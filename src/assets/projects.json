@@ -1,0 +1,135 @@
+{
+  "project": [
+    {
+      "title": "hr-recruitment-website",
+      "name": "HR Recruitment Website",
+      "company": "RMI",
+      "description": "A web application designed to streamline the recruitment process, enabling HR teams to manage job postings, applications, and candidate profiles efficiently.",
+      "techs": [
+        { "name": "React JS" },
+        { "name": "Tailwind CSS" },
+        { "name": "React Query" },
+        { "name": "React Router" }
+      ],
+      "contributions": [
+        {
+          "content": "Developed the front-end interface for job seekers and HR staff using ReactJS."
+        },
+        {
+          "content": "Implemented a secure login system with role-based access for administrators and applicants."
+        },
+        {
+          "content": "Integrated MongoDB for managing job postings and candidate data."
+        },
+        {
+          "content": "Designed a responsive user interface to improve usability across devices."
+        }
+      ]
+    },
+    {
+      "title": "approval-hub",
+      "name": "RYS Approval Hub",
+      "company": "RYS and Affiliated Companies",
+      "description": "An approval workflow system to centralize and automate the approval of internal requests, reducing processing times and improving efficiency.",
+      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Collaborated with the team to design and implement an approval pipeline for multiple departments."
+        },
+        {
+          "content": "Developed APIs for managing approval requests and routing decisions using Node.js."
+        },
+        {
+          "content": "Set up a PostgreSQL database for secure and efficient data storage."
+        },
+        {
+          "content": "Conducted thorough testing to ensure smooth workflow automation."
+        }
+      ]
+    },
+    {
+      "title": "request-for-payment",
+      "name": "Request For Payment",
+      "company": "RYS and Affiliated Companies",
+      "description": "A payment request management system for submitting, tracking, and processing internal payment requests.",
+      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Built the back-end logic for tracking payment request statuses using Laravel."
+        },
+        {
+          "content": "Designed and implemented a user-friendly interface with Vue.js for submitting and monitoring requests."
+        },
+        {
+          "content": "Developed a notification system to alert approvers of pending requests."
+        },
+        {
+          "content": "Optimized database queries to ensure efficient processing of large volumes of data."
+        }
+      ]
+    },
+    {
+      "title": "leave-application",
+      "name": "RYS Leave Application",
+      "company": "RYS and Affiliated Companies",
+      "description": "A leave management platform for employees to apply for, track, and manage their leaves with approval workflows.",
+      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Developed RESTful APIs for leave requests and approvals using Django."
+        },
+        {
+          "content": "Created a ReactJS-based dashboard for employees and managers to manage leave applications."
+        },
+        {
+          "content": "Integrated email notifications for leave status updates."
+        },
+        {
+          "content": "Implemented a calendar view for better visualization of leave schedules."
+        }
+      ]
+    },
+    {
+      "title": "ticketing-system",
+      "name": "Ticket System",
+      "company": "RYS and Affiliated Companies",
+      "description": "An internal IT support ticketing system to track and resolve employee-reported technical issues.",
+      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Designed and developed ticket submission and tracking modules using ASP.NET Core."
+        },
+        {
+          "content": "Built a reporting feature to analyze ticket resolution times and trends."
+        },
+        {
+          "content": "Implemented a priority-based system for categorizing and resolving tickets efficiently."
+        },
+        {
+          "content": "Integrated authentication for users and support staff with role-based access."
+        }
+      ]
+    },
+    {
+      "title": "docket-system",
+      "name": "Docket System",
+      "company": "RMI",
+      "description": "A web-based application for managing and tracking delivery dockets, ensuring accuracy and transparency in shipment tracking.",
+      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "contributions": [
+        {
+          "content": "Developed the back-end logic for generating and managing delivery dockets."
+        },
+        {
+          "content": "Designed an intuitive interface for drivers and logistics personnel."
+        },
+        {
+          "content": "Integrated real-time updates for tracking delivery statuses."
+        },
+        {
+          "content": "Optimized database queries for high performance with large shipment records."
+        }
+      ]
+    }
+  ]
+}

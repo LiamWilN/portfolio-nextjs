@@ -15,12 +15,15 @@ const Navigation = () => {
 
   return (
     <nav aria-label="Main Navigation">
-      <ul className="flex items-center justify-center gap-4">
+      <ul className="flex items-center justify-center gap-3">
         {Nav.NavigationLinks.map((item: NavigationItemProps) => {
           const isActiveLink = pathname.startsWith(item.links);
 
           return (
-            <li key={item.id}>
+            <li
+              className="hover:underline hover:underline-offset-8 rounded-lg"
+              key={item.id}
+            >
               <Link
                 className={`${
                   isActiveLink ? "underline underline-offset-8" : ""

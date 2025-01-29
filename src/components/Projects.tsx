@@ -10,17 +10,31 @@ export default function ProjectsDeveloped({ isfromHome = false }) {
     <div
       className={`${
         isfromHome ? "mt-8 border-t-[1px]" : ""
-      } dark:border-neutral-500 border-white`}
+      } dark:border-neutral-500 border-neutral-400`}
     >
-      <h1 className="my-4 text-2xl font-bold">Projects</h1>
-      <ul>
+      <div className="flex items-center justify-between">
+        <h1 className="my-4 text-2xl font-bold">Projects</h1>
+        {isfromHome && (
+          <Link className="text-sm" href="/projects">
+            See all projects
+          </Link>
+        )}
+      </div>
+      <ul className={`${isfromHome ? "" : "divide-y-[1px] space-y-2"} `}>
         {dataset.map((item) => (
           <li
-            className="hover:bg-neutral-800 hover:dark:bg-neutral-200 p-2 rounded-tl-lg rounded-br-lg"
+            className="p-2 hover:bg-neutral-800 hover:dark:bg-neutral-200 rounded-tl-lg rounded-br-lg"
             key={item.id}
           >
             <Link href={item.links}>
               <h2 className="text-lg font-semibold">{item.title}</h2>
+              <p
+                className={`${
+                  isfromHome ? "truncate" : ""
+                } text-sm dark:text-neutral-700 text-neutral-300`}
+              >
+                {item.description}
+              </p>
             </Link>
           </li>
         ))}

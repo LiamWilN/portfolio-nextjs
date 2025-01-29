@@ -11,7 +11,7 @@ const Header = () => {
           <Link href="/">
             <h1>williamC</h1>
           </Link>
-          <div className="flex items-center justify-center gap-4">
+          <div className="flex items-center justify-center gap-3">
             <Navigation />
             <ThemeToggle />
           </div>
