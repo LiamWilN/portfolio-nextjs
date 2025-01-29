@@ -26,7 +26,7 @@ export default function WorkExperience({ isfromHome = false }) {
           isfromHome ? "border-l-[1px] pl-2" : ""
         } dark:border-neutral-500 border-neutral-400 list-inside `}
       >
-        {data.Work.WorkExperience.map((item, index) => (
+        {data.Work.WorkExperience.map((item) => (
           <li
             data-aos="fade-right"
             className="hover:bg-neutral-800 hover:dark:bg-neutral-200 p-2 rounded-tr-lg rounded-bl-lg"
