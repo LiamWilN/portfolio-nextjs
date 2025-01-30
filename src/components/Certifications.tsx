@@ -14,7 +14,7 @@ export default function Certifications() {
     "Fundamental Course of Microsoft Power Platform": PowerCert,
   };
   return (
-    <div className="mt-8">
+    <div className="mt-10 border-t-[1px] py-4">
       <h1 className="font-semibold text-2xl">Certifications</h1>
       <ul className={`space-y-4" `}>
         {data.certifications.map((item) => (
