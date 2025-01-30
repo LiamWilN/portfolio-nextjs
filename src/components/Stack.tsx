@@ -5,6 +5,7 @@ import PowerApps from "@/assets/svg/powerapps.svg";
 import PowerAutomate from "@/assets/svg/powerautomate.svg";
 import NextJS from "@/assets/svg/nextjs.svg";
 import ReactJS from "@/assets/svg/react.svg";
+import List from "@/assets/svg/list.svg";
 import Image from "next/image";
 
 export default function TechStack() {
@@ -16,6 +17,7 @@ export default function TechStack() {
     { id: 4, icon: TailwindCSS, title: "Tailwind CSS" },
     { id: 5, icon: PowerApps, title: "Power Application" },
     { id: 6, icon: PowerAutomate, title: "Power Automate" },
+    { id: 7, icon: List, title: "Sharepoint List" },
   ];
 
   return (

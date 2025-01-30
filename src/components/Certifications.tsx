@@ -3,11 +3,13 @@ import Image, { StaticImageData } from "next/image";
 import CSSCert from "@/assets/certifications/CSS Bootstrap and Javascript Certificate.jpg";
 import PowerCert from "@/assets/certifications/Fundamental Course of Microsoft Power Platform.jpg";
 import ReactCert from "@/assets/certifications/React JS Crash Course.jpg";
+import Web5Cert from "@/assets/certifications/Web5 Fundamentals.jpg";
 
 type CertificationProps = {
   "CSS Bootstrap and Javascript": StaticImageData;
   "Fundamental Course of Microsoft Power Platform": StaticImageData;
   "React JS Course": StaticImageData;
+  "Web5 Fundamentals": StaticImageData;
 };
 
 export default function Certifications() {
@@ -15,6 +17,7 @@ export default function Certifications() {
     "CSS Bootstrap and Javascript": CSSCert,
     "Fundamental Course of Microsoft Power Platform": PowerCert,
     "React JS Course": ReactCert,
+    "Web5 Fundamentals": Web5Cert,
   };
   return (
     <div className="mt-10 border-t-[1px] py-4">

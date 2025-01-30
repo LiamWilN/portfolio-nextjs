@@ -11,6 +11,7 @@
         { "name": "React Query" },
         { "name": "React Router" }
       ],
+      "devices": [{ "name": "Web Application" }],
       "contributions": [
         {
           "content": "Developed the front-end interface for HR staff using ReactJS."
@@ -28,7 +29,12 @@
       "name": "RYS Approval Hub",
       "company": "RYS and Affiliated Companies",
       "description": "An approval workflow system to centralize and automate the approval of internal requests, reducing processing times and improving efficiency.",
-      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Application" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }, { "name": "Desktop" }],
       "contributions": [
         {
           "content": "Designed and implemented an approval pipeline for multiple departments and multiple applications."
@@ -49,7 +55,12 @@
       "name": "Request For Payment",
       "company": "RYS and Affiliated Companies",
       "description": "A payment request management system for submitting, tracking, and processing internal payment requests.",
-      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Application" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }, { "name": "Desktop" }],
       "contributions": [
         {
           "content": "Built the back-end and front-end logic for tracking payment request statuses."
@@ -70,7 +81,12 @@
       "name": "Official Business Trip / OB and Trip Ticket QR Scanner",
       "company": "RYS and Affiliated Companies",
       "description": "An organization-wide application for managing and tracking official business trips of all employees.",
-      "techs": [{ "name": "Power Apps" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Apps" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }, { "name": "Desktop" }],
       "contributions": [
         {
           "content": "Developed an application that will cater to mobile and desktop, as well as implementing scanner to the application."
@@ -85,7 +101,12 @@
       "name": "RYS Leave Application",
       "company": "RYS and Affiliated Companies",
       "description": "A leave management platform for employees to apply for, track, and manage their leaves with approval workflows.",
-      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Application" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }],
       "contributions": [
         {
           "content": "Developed a mobile application for leave requests and approvals"
@@ -106,7 +127,12 @@
       "name": "Ticket System",
       "company": "RYS and Affiliated Companies",
       "description": "An internal IT support ticketing system to track and resolve employee-reported technical issues.",
-      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Application" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }, { "name": "Desktop" }],
       "contributions": [
         {
           "content": "Designed and developed ticket submission and tracking of it issues"
@@ -127,7 +153,12 @@
       "name": "Docket System",
       "company": "RMI",
       "description": "A web-based application for managing and tracking email and letters, ensuring accuracy and transparency in tracking.",
-      "techs": [{ "name": "Power Application" }, { "name": "Power Automate" }],
+      "techs": [
+        { "name": "Power Application" },
+        { "name": "Power Automate" },
+        { "name": "Sharepoint Lists" }
+      ],
+      "devices": [{ "name": "Mobile" }],
       "contributions": [
         {
           "content": "Developed the logic for generating and managing emails and letters."
