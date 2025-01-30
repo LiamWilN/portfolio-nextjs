@@ -7,6 +7,7 @@ import me from "@/assets/me.json";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Certifications from "./Certifications";
 
 export default function About() {
   useEffect(() => {
@@ -49,6 +50,7 @@ export default function About() {
         </div>
       </Section>
       <Skills />
+      <Certifications />
     </>
   );
 }

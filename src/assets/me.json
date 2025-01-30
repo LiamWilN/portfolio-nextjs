@@ -28,5 +28,18 @@
       "link": "https://github.com/LiamWilN",
       "title": "Github"
     }
+  ],
+
+  "certifications": [
+    {
+      "id": 0,
+      "title": "CSS Bootstrap and Javascript",
+      "link": "https://www.udemy.com/certificate/UC-68d06be2-42b7-433b-a52b-4234cd89c958/"
+    },
+    {
+      "id": 1,
+      "title": "Fundamental Course of Microsoft Power Platform",
+      "link": "https://www.udemy.com/certificate/UC-e310eafd-35e0-4f5d-be7e-d55021315cbc/"
+    }
   ]
 }
