@@ -29,6 +29,7 @@
       "name": "RYS Approval Hub",
       "company": "RYS and Affiliated Companies",
       "description": "An approval workflow system to centralize and automate the approval of internal requests, reducing processing times and improving efficiency.",
+      "longdescription": "This system brings together all previous approval applications into one centralized platform, making it easier to manage and track requests. It's built to be flexible, allowing new applications to be added without hassle. Approvers can see and process requests from different companies based on their roles. The system is available on both mobile and desktop, ensuring accessibility across devices.",
       "techs": [
         { "name": "Power Application" },
         { "name": "Power Automate" },
@@ -55,6 +56,7 @@
       "name": "Request For Payment",
       "company": "RYS and Affiliated Companies",
       "description": "A payment request management system for submitting, tracking, and processing internal payment requests.",
+      "longdescription": "Originally built for a single company, it was later redesigned to support a corporate-wide environment. This system allows staff and managers to request payments for various company-related expenses, from cash advances to notary and bill payments. Nearly all money-related requests go through this platform to ensure proper recording and tracking of transactions. It also includes a Cheque Application module, where finance staff can manage completed requests and track those requiring a cheque after approval. The system is available on both mobile and desktop for accessibility.",
       "techs": [
         { "name": "Power Application" },
         { "name": "Power Automate" },
@@ -81,6 +83,7 @@
       "name": "Official Business Trip / OB and Trip Ticket QR Scanner",
       "company": "RYS and Affiliated Companies",
       "description": "An organization-wide application for managing and tracking official business trips of all employees.",
+      "longdescription": "This corporate-wide system tracks all official employee leaves and business trips. Employees can file for a business trip request, which requires approval before proceeding. Once approved, the system generates a QR code that integrates with the OB and Trip Ticket System for validation. The Trip Ticket System is designed for company drivers, ensuring proper approval and QR-based tracking for trips.",
       "techs": [
         { "name": "Power Apps" },
         { "name": "Power Automate" },
@@ -101,6 +104,7 @@
       "name": "RYS Leave Application",
       "company": "RYS and Affiliated Companies",
       "description": "A leave management platform for employees to apply for, track, and manage their leaves with approval workflows.",
+      "longdescription": "This application allows staff and managers to manage official leaves efficiently. Users can file leave requests, check their leave balances, and view their calendar for holidays and approved leaves. Managers, on the other hand, can review and manage leave requests from their team. The system is designed exclusively for mobile use, ensuring accessibility on the go.",
       "techs": [
         { "name": "Power Application" },
         { "name": "Power Automate" },
@@ -127,6 +131,7 @@
       "name": "Ticket System",
       "company": "RYS and Affiliated Companies",
       "description": "An internal IT support ticketing system to track and resolve employee-reported technical issues.",
+      "longdescription": "This corporate-wide system allows users to submit IT-related concerns, which can either be picked up by IT staff or assigned by the IT Manager. Once an issue is resolved, the requestor must confirm the completion and has the option to evaluate the IT staff based on responsiveness and attitude, giving a performance score. The system also tracks all responses and turnaround times, enabling performance assessment based on issue resolution efficiency.",
       "techs": [
         { "name": "Power Application" },
         { "name": "Power Automate" },
@@ -153,6 +158,7 @@
       "name": "Docket System",
       "company": "RMI",
       "description": "A web-based application for managing and tracking email and letters, ensuring accuracy and transparency in tracking.",
+      "longdescription": "This system was designed for a specific company and its Administration Department to efficiently track all incoming letters and mails within the organization, ensuring proper documentation and organization.",
       "techs": [
         { "name": "Power Application" },
         { "name": "Power Automate" },

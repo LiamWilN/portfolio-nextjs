@@ -60,7 +60,7 @@ export default function ProjectsDeveloped({ isfromHome = false }) {
           </Link>
         )}
       </div>
-      <ul className={`${isfromHome ? "" : "space-y-4"} `}>
+      <ul className={`${isfromHome ? "space-y-2" : "grid grid-cols-2"} `}>
         {dataset.map((item) => (
           <li
             data-aos="fade-right"

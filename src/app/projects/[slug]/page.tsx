@@ -84,6 +84,9 @@ export default async function Project({ params }: { params: Params }) {
             <li key={index}>{item.content}</li>
           ))}
         </ul>
+        {dataset.longdescription && (
+          <p className="p-2 text-sm">{dataset.longdescription}</p>
+        )}
       </section>
     </section>
   );
