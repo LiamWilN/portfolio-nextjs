@@ -10,30 +10,34 @@
       "responsibilities": [
         {
           "id": 0,
-          "content": "Designed and developed multiple in-house and corporate web applications to streamline business processes and improve efficiency."
+          "content": "Designed and developed multiple in-house and corporate web applications using Power Applications, Power Automate, and Dataverse to streamline business processes and improve efficiency."
         },
         {
           "id": 1,
-          "content": "Managed and maintained IT hardware, software, and network equipment for the organization."
+          "content": "Experienced in managing and maintaining SharePoint sites for document storage, team collaboration, and workflow automation."
         },
         {
           "id": 2,
-          "content": "Configured and deployed Fortinet Firewalls and Synology Drive for secure and efficient network storage solutions."
+          "content": "Managed and maintained IT hardware, software, and network equipment for the organization."
         },
         {
           "id": 3,
-          "content": "Automated critical tasks using Power Automate, such as integrating daily attendance records (from ZKTeco Biometrics) directly into the payroll system database."
+          "content": "Configured and deployed Fortinet Firewalls and Synology Drive for secure and efficient network storage solutions."
         },
         {
           "id": 4,
-          "content": "Created monthly assessment reports detailing hardware, software, and network performance improvements."
+          "content": "Automated critical tasks using Power Automate, such as integrating daily attendance records (from ZKTeco Biometrics) directly into the payroll system database."
         },
         {
           "id": 5,
-          "content": "Advanced knowledge of Fortinet Firewall and Synology Network Storage."
+          "content": "Created monthly assessment reports detailing hardware, software, and network performance improvements."
         },
         {
           "id": 6,
+          "content": "Advanced knowledge of Fortinet Firewall and Synology Network Storage."
+        },
+        {
+          "id": 7,
           "content": "Extensive experience in managing Office 365 environments, including Domain integration and configuration, Security Groups and Distribution List management, Email flow and rule setup using Microsoft Exchange."
         }
       ]

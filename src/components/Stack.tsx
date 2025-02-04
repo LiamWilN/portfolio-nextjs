@@ -10,14 +10,14 @@ import Image from "next/image";
 
 export default function TechStack() {
   const techstack = [
-    { id: 0, icon: Typescript, title: "Typescript" },
-    { id: 1, icon: Javascript, title: "Javascript" },
-    { id: 2, icon: ReactJS, title: "React JS" },
-    { id: 3, icon: NextJS, title: "Next JS" },
-    { id: 4, icon: TailwindCSS, title: "Tailwind CSS" },
-    { id: 5, icon: PowerApps, title: "Power Application" },
-    { id: 6, icon: PowerAutomate, title: "Power Automate" },
-    { id: 7, icon: List, title: "Sharepoint List" },
+    { id: 0, icon: PowerApps, title: "Power Application" },
+    { id: 1, icon: PowerAutomate, title: "Power Automate" },
+    { id: 2, icon: List, title: "Sharepoint List" },
+    { id: 3, icon: Typescript, title: "Typescript" },
+    { id: 4, icon: Javascript, title: "Javascript" },
+    { id: 5, icon: ReactJS, title: "React JS" },
+    { id: 6, icon: NextJS, title: "Next JS" },
+    { id: 7, icon: TailwindCSS, title: "Tailwind CSS" },
   ];
 
   return (
