@@ -2,11 +2,11 @@
   "work": [
     {
       "id": 0,
-      "title": "it-staff",
-      "position": "IT Staff II",
+      "title": "software-developer",
+      "position": "Software Developer (IT Staff II)",
       "company": "RYS Property Holdings, Inc.",
       "location": "Cubao, Quezon City",
-      "date": "December 2022 - January 2025",
+      "date": "December 2022 - February 2025",
       "responsibilities": [
         {
           "id": 0,
@@ -44,11 +44,11 @@
     },
     {
       "id": 1,
-      "title": "trainee",
+      "title": "tech-support",
       "position": "IT Technical Support Engineer Trainee",
       "company": "Tech Mahindra",
       "location": "Libis, Quezon City",
-      "date": "April 2022 - January 2022",
+      "date": "April 2022 - July 2022",
       "responsibilities": [
         {
           "id": 0,

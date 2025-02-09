@@ -62,17 +62,17 @@
     "WorkExperience": [
       {
         "id": 0,
-        "title": "IT Staff II",
-        "links": "/work/it-staff",
+        "title": "Software Developer (IT Staff II)",
+        "links": "/work/software-developer",
         "details": [
           { "id": 0, "content": "RYS Property Holdings, Inc." },
-          { "id": 1, "content": "December 2022 - January 2025" }
+          { "id": 1, "content": "December 2022 - February 2025" }
         ]
       },
       {
         "id": 1,
         "title": "IT Technical Support Engineer Trainee",
-        "links": "/work/trainee",
+        "links": "/work/tech-support",
         "details": [
           { "id": 0, "content": "Tech Mahindra" },
           { "id": 1, "content": "April 2022 - July 2022" }
