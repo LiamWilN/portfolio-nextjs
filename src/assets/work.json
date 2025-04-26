@@ -2,11 +2,45 @@
   "work": [
     {
       "id": 0,
+      "title": "powerapps-developer",
+      "position": "Power Apps Developer",
+      "company": "AtomIT Business Solutions, Inc.",
+      "location": "Alabang, Muntinlupa City",
+      "date": "March 2025 - Present",
+      "responsibilities": [
+        {
+          "id": 0,
+          "content": "Designed and developed low-code business applications using Power Apps, streamlining internal workflows and improving data accessibility."
+        },
+        {
+          "id": 1,
+          "content": "Created complex automated workflows using Power Automate, integrating internal systems and enhancing operational efficiency."
+        },
+        {
+          "id": 2,
+          "content": "Developed interactive reports and dashboards using Power BI to support data-driven decision-making across departments."
+        },
+        {
+          "id": 3,
+          "content": "Deployed and managed Power Platform solutions using deployment pipelines for version control and environment management."
+        },
+        {
+          "id": 4,
+          "content": "Integrated Power Apps and Power Automate with third-party APIs and external services to extend app functionality and streamline cross-platform processes."
+        },
+        {
+          "id": 5,
+          "content": "Managed and administered SharePoint sites as backend storage for Power Platform solutions and for team collaboration."
+        }
+      ]
+    },
+    {
+      "id": 1,
       "title": "software-developer",
       "position": "Software Developer (IT Staff II)",
       "company": "RYS Property Holdings, Inc.",
       "location": "Cubao, Quezon City",
-      "date": "December 2022 - February 2025",
+      "date": "December 2022 - March 2025",
       "responsibilities": [
         {
           "id": 0,
@@ -43,7 +77,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "tech-support",
       "position": "IT Technical Support Engineer Trainee",
       "company": "Tech Mahindra",

@@ -62,15 +62,24 @@
     "WorkExperience": [
       {
         "id": 0,
-        "title": "Software Developer (IT Staff II)",
-        "links": "/work/software-developer",
+        "title": "Power Apps Developer",
+        "links": "/work/powerapps-developer",
         "details": [
-          { "id": 0, "content": "RYS Property Holdings, Inc." },
-          { "id": 1, "content": "December 2022 - February 2025" }
+          { "id": 0, "content": "AtomIT Business Solutions, Inc." },
+          { "id": 1, "content": "March 2025 - Present" }
         ]
       },
       {
         "id": 1,
+        "title": "Software Developer (IT Staff II)",
+        "links": "/work/software-developer",
+        "details": [
+          { "id": 0, "content": "RYS Property Holdings, Inc." },
+          { "id": 1, "content": "December 2022 - March 2025" }
+        ]
+      },
+      {
+        "id": 2,
         "title": "IT Technical Support Engineer Trainee",
         "links": "/work/tech-support",
         "details": [
