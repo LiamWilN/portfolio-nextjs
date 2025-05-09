@@ -4,6 +4,8 @@ import Section from "./Section";
 import Link from "next/link";
 import me from "@/assets/me.json";
 import { useEffect } from "react";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -15,6 +17,7 @@ export default function Hero() {
     });
   }, []);
   return (
+    <>
     <Section>
       <div className="my-4 pb-4 text-sm">
         <p>Hi, I&apos;m</p>
@@ -29,5 +32,14 @@ export default function Hero() {
         </h2>
       </div>
     </Section>
+    <Section>
+    <form method="get" action="/WilliamCalda-Portfolio.pdf">
+      <button className="rounded-full dark:border-black border-white border-[1px] py-2 px-4 mb-4" type="submit">
+        <FontAwesomeIcon icon={faFilePdf} className="mr-2"/>
+        View my Resume
+      </button>
+    </form>
+    </Section>
+    </>
   );
 }
