@@ -36,7 +36,7 @@ export default function Hero() {
     <form method="get" action="/WilliamCalda-Portfolio.pdf">
       <button className="rounded-full dark:border-black border-white border-[1px] py-2 px-4 mb-4" type="submit">
         <FontAwesomeIcon icon={faFilePdf} className="mr-2"/>
-        View my Resume
+        View my Resumé
       </button>
     </form>
     </Section>
