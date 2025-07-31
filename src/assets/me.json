@@ -33,23 +33,33 @@
   "certifications": [
     {
       "id": 0,
+      "title": "NCII Java Programming",
+      "link": ""
+    },
+    {
+      "id": 1,
       "title": "CSS Bootstrap and Javascript",
       "link": "https://www.udemy.com/certificate/UC-68d06be2-42b7-433b-a52b-4234cd89c958/"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Fundamental Course of Microsoft Power Platform",
       "link": "https://www.udemy.com/certificate/UC-e310eafd-35e0-4f5d-be7e-d55021315cbc/"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "React JS Course",
       "link": "https://www.udemy.com/certificate/UC-aae1f88d-ff42-4045-8bbc-10bf4f93a377/"
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Web5 Fundamentals",
       "link": "https://www.udemy.com/certificate/UC-c1db103c-93d7-49f7-90f0-e2d137e5e222/"
+    }, 
+    {
+      "id": 6,
+      "title": "AWS Cloud Practitioner",
+      "link": "https://www.credly.com/badges/909f09c9-2ca7-4b0b-bb2e-819db96bd154/public_url"
     }
   ]
 }
