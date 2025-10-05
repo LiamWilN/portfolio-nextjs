@@ -22,15 +22,31 @@
         },
         {
           "id": 3,
-          "content": "Deployed and managed Power Platform solutions using deployment pipelines for version control and environment management."
+          "content": "Deployed and managed Power Platform solutions using deployment pipelines for version control, ALM, and environment management, adhering to the SDLC process."
         },
         {
           "id": 4,
-          "content": "Integrated Power Apps and Power Automate with third-party APIs and external services to extend app functionality and streamline cross-platform processes."
+          "content": "Integrated Power Apps and Power Automate with third-party APIs, Microsoft Graph, and external services to extend functionality and streamline cross-platform processes."
         },
         {
           "id": 5,
-          "content": "Managed and administered SharePoint sites as backend storage for Power Platform solutions and for team collaboration."
+          "content": "Managed and administered SharePoint sites as backend storage for Power Platform solutions, optimizing list design, permissions, and collaboration workflows."
+        },
+        {
+          "id": 6,
+          "content": "Utilized Azure services, including Azure Logic Apps, API Management, and Azure Functions, to enhance scalability and maintainability of Power Platform applications."
+        },
+        {
+          "id": 7,
+          "content": "Implemented and maintained API integrations, ensuring secure and efficient communication between business systems."
+        },
+        {
+          "id": 8,
+          "content": "Integrated AI models into Power Apps and Power Automate solutions, enabling intelligent automation, form recognition, and data prediction features."
+        },
+        {
+          "id": 9,
+          "content": "Collaborated with cross-functional teams to analyze requirements, design technical solutions, and deliver end-to-end business automation systems aligned with organizational goals."
         }
       ]
     },

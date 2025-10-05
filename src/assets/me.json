@@ -5,11 +5,11 @@
   "hero": [
     {
       "id": 0,
-      "content": "I am your All-Around-IT Guy with a bit of experience in everything IT-related. I am a problem solver, minimalist and a software developer with a passion for creating intuitive and user-friendly digital experiences."
+      "content": "I’m a versatile IT professional with experience spanning Power Platform development, web technologies, and automation solutions. I specialize in building smart, user-friendly applications with Power Apps, Power Automate, and Power BI—often integrating them with Azure, APIs, and AI models to simplify workflows and improve efficiency. I’m passionate about solving complex problems, optimizing processes, and creating digital tools that make everyday work easier and more meaningful."
     },
     {
       "id": 1,
-      "content": "I have a diverse knowledge on software development, troubleshooting, and network systems, which allows me to adapt quickly to different challenges and environments. Whether it's designing a sleek interface or finding efficient solutions to technical issues, I thrive on making things work better and more efficiently."
+      "content": "Beyond low-code development, I also have professional experience in web development using Next.js, as well as scripting in C# and Java. This combination of skills allows me to bridge traditional and modern development practices, delivering solutions that are both powerful and practical."
     }
   ],
   "socialmedia": [
