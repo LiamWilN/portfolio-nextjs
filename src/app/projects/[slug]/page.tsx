@@ -88,6 +88,14 @@ export default async function Project({ params }: { params: Params }) {
           <p className="p-2 text-sm">{dataset.longdescription}</p>
         )}
       </section>
+      <br />
+      <section className="p-2">
+        <p className="text-xs italic">
+          To protect project confidentiality and security, full project visuals are not publicly displayed.
+          Sharing complete images may expose sensitive details related to project anonymity, functionality, and internal processes. 
+          Only carefully selected snippets are shown to demonstrate credibility while maintaining compliance and protection.
+        </p>
+      </section>
     </section>
   );
 }
