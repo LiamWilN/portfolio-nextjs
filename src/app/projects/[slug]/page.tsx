@@ -90,7 +90,7 @@ export default async function Project({ params }: { params: Params }) {
       </section>
       <br />
       <section className="p-2 pt-4">
-        <p className="text-[10px] italic line-clamp-2">
+        <p className="text-[10px] italic line-clamp-3">
           *** Important Note: To protect project confidentiality and security, full project visuals are not publicly displayed.
           Complete images may expose sensitive details related to project anonymity, functionality, and internal processes. 
           Only carefully selected snippets are shown to demonstrate credibility while maintaining compliance and protection. ***
